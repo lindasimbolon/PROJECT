@@ -2,27 +2,7 @@
 <body>
 <?php include "menu.php";?>
 <!-- Header -->
-<header id="head" style="font-size:12px">
-<h3>DATA ALL PAS</h3>
-<p align="left"><a href="excel_pas_all.php" target="_blank"><img src="images/excel.png" width="30"> Export to Excel</a></p>
-		<table id="contoh">
-				<thead >
-				<tr bgcolor="#2e9fd2" align="center">
-					<th width="3%">#</th>
-					<th width="13%" >N0 PAS</th>
-					<th width="22%">NAMA PROGRAM</th>
-					<th width="15%">TGL PELAKSANAAN</th>
-					<th width="5%">TGL INPUTAN</th>
-					<th width="5%">TGL PERSETUJUAN</th>
-					<th width="10%">NAMA CMR</th>
-					<th width="5%">AREA OFFICE</th>
-					<th width="10%">ESTIMASI BIAYA (Rp)</th>
-					<th width="5%">STATUS PAS</th>
-					<th width="7%">FILE BERKAS</th>
-					<th width="5%">ACTION</th>
-				</tr>
-				</thead>
-			<tbody>
+<header id="head" style="font-size:
 				<?php
 				
 				$i=0;
